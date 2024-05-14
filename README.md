@@ -52,10 +52,10 @@ The Property Management System is a command-line application designed to manage 
   - Enter `2` at the main menu prompt and press Enter.
   - Follow the prompts to enter the details of the new property:
     ```
-    Enter property ID: [your_property_id]
-    Enter property address: [your_property_address]
-    Enter property price: $[your_property_price]
-    Is the property for sale or rent? (Sale/Rent): [Sale or Rent]
+    Enter property ID: 1
+    Enter property address: University Ala-Too
+    Enter property price: $1000000
+    Is the property for sale or rent? (Sale/Rent): Sale
     ```
   - If the ID already exists in the system, you will receive an error message and be returned to the main menu.
 
@@ -64,13 +64,13 @@ The Property Management System is a command-line application designed to manage 
   - Enter `3` at the main menu prompt and press Enter.
   - You will be prompted to enter the ID of the property you want to update:
     ```
-    Enter property ID to update: [existing_property_id]
+    Enter property ID to update: 1
     ```
   - If the property ID is found, you will be prompted to enter the new details for the property:
     ```
-    Enter new property address: [new_property_address]
-    Enter new property price: $[new_property_price]
-    Is the property for sale or rent? (Sale/Rent): [Sale or Rent]
+    Enter new property address: KNU University
+    Enter new property price: $10000
+    Is the property for sale or rent? (Sale/Rent): Sale
     ```
   - The system will update the property information and confirm the update.
   - If the property ID is not found, you will receive an error message and be returned to the main menu.
@@ -78,5 +78,14 @@ The Property Management System is a command-line application designed to manage 
 ### Delete Property
 - To delete a property from the system:
   - Enter `4` at the main menu prompt
+  - You will be prompted to enter the ID of the property you want to delete:
+    ```
+    Enter property ID to delete: 1
+    Property deleted successfully.
+    ```
+### Exit Program
+- To exit program 
+  - Enter `5` at the main menu prompt
+  - You will be out of the program terminal
 
 
