@@ -34,6 +34,7 @@ The Property Management System is a command-line application designed to manage 
    - Run the executable file to launch the Property Management System.
 3. **Using the Application:**
    - Upon launching the application, the main menu will be displayed.
+   - ![Screenshot_28](https://github.com/AktanAlmazovich/Final-project/assets/163660855/cccaa3af-b2e5-4b3e-ae1c-c85376a9f138)
    - Follow the on-screen prompts to perform property management tasks:
      - Enter '1' to list properties.
      - Enter '2' to add a new property.
