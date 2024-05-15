@@ -23,7 +23,7 @@ void saveDataToFile() {
         }
         file.close();
     } else {
-        cerr << "Unable to open file for writing." << endl;
+        cout << "Unable to open file for writing." << endl;
     }
 }
 
